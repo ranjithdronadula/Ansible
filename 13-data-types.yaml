@@ -1,17 +1,17 @@
-- name: ansible data types
+- name: ansible datatypes
   hosts: local
   connection: local
   vars:
-    DURATION: 120hr # number
-    COURSE: "Aws"   # string
-    IS_LIVE: "true" # boolean
-    TOOLS:           # List []
-      - linux
-      - shell
-      - ansible
-    CONCEPTS:     # map or dictionary or object. referred like {}
-      CI: jenkins
-      SCRIPTING: "Shell,Ansible.Terraform,Python"
+    DURATION: 120 # This is number
+    COURSE: "DevSecOps with AWS" # String
+    IS_LIVE: true # boolean
+    TOOLS: # List []
+    - Linux
+    - shell
+    - Ansible
+    CONCETPS: # map or dictionary or object. referred like {}
+      CI: Jenkins
+      SCRIPTING: "Shell, Ansible, Terraform, Python"
   tasks:
   - name: print course information
     ansible.builtin.debug:
