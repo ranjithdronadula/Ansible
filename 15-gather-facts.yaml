@@ -2,6 +2,6 @@
   hosts: local
   connection: local
   tasks:
-  - name: print facts
+  - name: print facts     #  Gathers facts about remote hosts
     ansible.builtin.debug:
-      msg: "{{ nginx_facts }}"
+      msg: "{{ ansible_facts }}"
