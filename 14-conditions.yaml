@@ -6,5 +6,5 @@
   tasks:
   - name: print if number is less then or equal to 100
     ansible.builtin.debug:
-      msg: "print if number: {{ NUMBER }} is less then or equal to 100
-      when: NUMBER <= 100
+      msg: "print if number: {{ NUMBER }} is less then or equal to 100"
+    when: NUMBER <= 100
