@@ -1,4 +1,4 @@
-- nmae: gather facts
+- name:  gathering facts
   hosts: local
   connection: local
   tasks:
