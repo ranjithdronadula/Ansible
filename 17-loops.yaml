@@ -1,7 +1,7 @@
 - name: loops
   hosts: local
   connection: local
-  hosts:
+  tasks:
   - name: print names
     ansible.builtin.debug:
       msg: "hello persions names:{{ item }}"  #item here is reserved keyword
