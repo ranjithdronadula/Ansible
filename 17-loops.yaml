@@ -4,7 +4,7 @@
   tasks:
   - name: print names
     ansible.builtin.debug:
-      msg: "hello persions names:{{ item }}"  #item here is reserved keyword
+      msg: "hello persion name is: {{ item }}"  #item here is reserved keyword
     loop:
     - suresh
     - ramesh
