@@ -5,8 +5,8 @@
   - name: print information
     ansible.builtin.debug:
       msg: "hello persions names:{{ item }}"
-  loops:
-  - suresh
-  - ramesh
-  - ashok
-  - sumanth  
+    loops:
+    - suresh
+    - ramesh
+    - ashok
+    - sumanth  
