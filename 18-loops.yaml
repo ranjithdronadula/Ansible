@@ -1,3 +1,4 @@
+# using loop we installed packages 
 - name: install packages
   hosts: frontend
   become: yes

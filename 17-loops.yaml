@@ -1,3 +1,5 @@
+# uing loop we print nmaes 
+# loops we use "{{ item }}"" word
 - name: loops
   hosts: local
   connection: local
