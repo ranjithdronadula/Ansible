@@ -2,10 +2,10 @@
   hosts: local
   connection: local
   hosts:
-  - name: print information
+  - name: print names
     ansible.builtin.debug:
-      msg: "hello persions names:{{ item }}"
-    loops:
+      msg: "hello persions names:{{ item }}"  #item here is reserved keyword
+    loop:
     - suresh
     - ramesh
     - ashok
